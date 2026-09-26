@@ -1,7 +1,6 @@
 aid: arrivo-bioventures
 name: Arrivo BioVentures
-description: 'Arrivo BioVentures is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Arrivo BioVentures is a biopharmaceutical holding company developing first‑of‑its‑kind medicines for hard‑to‑treat diseases. It focuses on targeting the root cause of conditions such as major depressive disorder and severe acute pancreatitis, aiming for meaningful outcomes that extend patients’ lives. The company partners with institutions like the Mayo Clinic and Daiichi Sankyo and is backed by investors including Jazz Pharmaceuticals and Orlando Health Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/arrivo-bioventures/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +11,10 @@ created: '2026-09-26'
 modified: '2026-09-26'
 tags:
 - Company
+- Biopharma
+- Drug Development
+- Clinical Trials
+- Partnerships
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arrivo-bioventures-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://arrivobio.com
+- type: Documentation
+  url: https://arrivobio.com/about-us/
+- type: Contact
+  url: https://arrivobio.com/contact/
